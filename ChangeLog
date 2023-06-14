@@ -1,5 +1,13 @@
 Revision history for XS-Parse-Keyword
 
+0.34    2023-06-14
+        [CHANGES]
+         * Swap all unit tests from Test::More to Test2::V0
+
+        [BUGFIXES]
+         * Remember to set `-std=c99` compiler flag on Perls before v5.36
+         * Skip whitespace between pieces of SEQUENCE or SEPARATEDLIST
+
 0.33    2023-02-18
         [CHANGES]
          * Added XPK_LEXVAR, a non `my`-alike variant
