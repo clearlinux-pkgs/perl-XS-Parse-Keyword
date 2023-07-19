@@ -4,10 +4,10 @@
 # Using build pattern: cpan
 #
 Name     : perl-XS-Parse-Keyword
-Version  : 0.34
-Release  : 6
-URL      : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/XS-Parse-Keyword-0.34.tar.gz
-Source0  : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/XS-Parse-Keyword-0.34.tar.gz
+Version  : 0.35
+Release  : 7
+URL      : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/XS-Parse-Keyword-0.35.tar.gz
+Source0  : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/XS-Parse-Keyword-0.35.tar.gz
 Summary  : 'XS functions to assist in parsing keyword syntax'
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
@@ -52,10 +52,10 @@ perl components for the perl-XS-Parse-Keyword package.
 
 
 %prep
-%setup -q -n XS-Parse-Keyword-0.34
-cd %{_builddir}/XS-Parse-Keyword-0.34
+%setup -q -n XS-Parse-Keyword-0.35
+cd %{_builddir}/XS-Parse-Keyword-0.35
 pushd ..
-cp -a XS-Parse-Keyword-0.34 buildavx2
+cp -a XS-Parse-Keyword-0.35 buildavx2
 popd
 
 %build
