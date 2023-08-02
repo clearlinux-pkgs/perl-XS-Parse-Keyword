@@ -5,7 +5,7 @@
 #
 Name     : perl-XS-Parse-Keyword
 Version  : 0.36
-Release  : 8
+Release  : 9
 URL      : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/XS-Parse-Keyword-0.36.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/XS-Parse-Keyword-0.36.tar.gz
 Summary  : 'XS functions to assist in parsing keyword syntax'
