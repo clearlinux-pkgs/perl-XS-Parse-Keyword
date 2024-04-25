@@ -1,5 +1,5 @@
 PKG_NAME := perl-XS-Parse-Keyword
-URL = https://cpan.metacpan.org/authors/id/P/PE/PEVANS/XS-Parse-Keyword-0.40.tar.gz
+URL = https://cpan.metacpan.org/authors/id/P/PE/PEVANS/XS-Parse-Keyword-0.41.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
