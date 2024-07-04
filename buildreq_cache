@@ -1,2 +1,3 @@
-0.42
+0.43
 perl(ExtUtils::CChecker)
+perl(File::ShareDir)
