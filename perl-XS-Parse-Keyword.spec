@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : perl-XS-Parse-Keyword
-Version  : 0.45
-Release  : 21
-URL      : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/XS-Parse-Keyword-0.45.tar.gz
-Source0  : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/XS-Parse-Keyword-0.45.tar.gz
+Version  : 0.46
+Release  : 22
+URL      : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/XS-Parse-Keyword-0.46.tar.gz
+Source0  : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/XS-Parse-Keyword-0.46.tar.gz
 Summary  : 'XS functions to assist in parsing keyword syntax'
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
@@ -55,10 +55,10 @@ perl components for the perl-XS-Parse-Keyword package.
 
 
 %prep
-%setup -q -n XS-Parse-Keyword-0.45
-cd %{_builddir}/XS-Parse-Keyword-0.45
+%setup -q -n XS-Parse-Keyword-0.46
+cd %{_builddir}/XS-Parse-Keyword-0.46
 pushd ..
-cp -a XS-Parse-Keyword-0.45 buildavx2
+cp -a XS-Parse-Keyword-0.46 buildavx2
 popd
 
 %build
@@ -94,8 +94,8 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files dev
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.40.0/x86_64-linux-thread-multi/auto/share/dist/XS-Parse-Keyword/include/XSParseInfix.h
-/usr/lib/perl5/vendor_perl/5.40.0/x86_64-linux-thread-multi/auto/share/dist/XS-Parse-Keyword/include/XSParseKeyword.h
+/usr/lib/perl5/vendor_perl/5.40.0/x86_64-linux-thread-multi/auto/share/module/XS-Parse-Infix/include/XSParseInfix.h
+/usr/lib/perl5/vendor_perl/5.40.0/x86_64-linux-thread-multi/auto/share/module/XS-Parse-Keyword/include/XSParseKeyword.h
 /usr/share/man/man3/XS::Parse::Infix.3
 /usr/share/man/man3/XS::Parse::Infix::Builder.3
 /usr/share/man/man3/XS::Parse::Keyword.3
